@@ -28,7 +28,6 @@ function SoloPage() {
 
   return (
     <div>
-      <Header />
       <section className="display-solo-page">
         <div className="play-solo">
           {changeButton === false ? (

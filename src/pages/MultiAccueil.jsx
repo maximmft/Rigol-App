@@ -5,7 +5,7 @@ import NamesInput from "../components/NamesInput";
 import "../pages/multiaccueil.css";
 
 function MultiAccueil() {
-  const [names, setNames] = useState([]);
+  const {names, setNames} = useName([]);
 
 
   const addNames = (inputNames) => {
@@ -31,7 +31,7 @@ function MultiAccueil() {
         </ul>
       </div>
       <div className="btn-container">
-        <button onClick={handleNames} >Riez</button>
+        <button className="btn" onClick={handleNames} >Riez</button>
       </div>
     </>
   );

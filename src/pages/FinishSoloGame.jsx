@@ -7,7 +7,6 @@ function FinishSoloGame() {
 
   return (
     <div>
-      <Header />
       <section className="display-solo-page">
         <div className="play-solo">
           <h2 className="btn-change-solo">Fini de rire !</h2>
