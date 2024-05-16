@@ -21,7 +21,7 @@
     flex-direction: column;
     border: 1px white solid;
     border-radius: 50%;
-    height: 19rem;
+    height: 45vh;
     justify-content: center;
     box-shadow: 0px 0px 15px 2px #969696;
     animation: growAndShrink 2.5s infinite;
@@ -57,7 +57,8 @@
 }
 
 @keyframes growAndShrink {
-    0% {
+    
+  0% {
       width: 75%;
       height: 45vh;
       font-size: 2rem;
@@ -73,6 +74,32 @@
       height: 45vh;
       font-size: 2rem;
 
+    }
+  }
+  
+  @media (min-width: 1000px) {
+    .play {
+      margin-top: 5vh;
+      animation: growAndShrinkDesktop 2.5s infinite; /* Changed animation name */
+  
+    }
+  
+    @keyframes growAndShrinkDesktop {
+      0% {
+        width: 25%;
+        height: 40vh;
+        font-size: 2rem;
+      }
+      50% {
+        width: 28%;
+        height: 45vh;
+        font-size: 2.5rem;
+      }
+      100% {
+        width: 25%;
+        height: 40vh;
+        font-size: 2rem;
+      }
     }
   }
   
