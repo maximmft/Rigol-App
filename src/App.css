@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Poetsen+One&display=swap');
+
+:root {
+  --primary-color: #FFF1DE;
+  --second-color: #43B0B9;
+  --third-color: #F6BB54;
+
+  --primary-font: "Poetsen", sans-serif;
+  --second-font: "Dosis", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: var(--primary-color);
+}
