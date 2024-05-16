@@ -17,7 +17,7 @@ function MultiPage() {
         <h2 className="h2-multi">Yann</h2>
         <h2 className="h2-multi">Rigole un coup !</h2>
       </div> : <div className="play">
-        <h2 className="h2-multi">A vos rires!</h2>
+        <h2 className="h2-multi">A vos rires !</h2>
       </div> }
       <button className="button-multi" onClick={handleChange}>Suivant</button>
     </section>
