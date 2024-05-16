@@ -3,6 +3,7 @@ import App from "./App";
 import HomePage from "./pages/HomePage";
 import MultiPage from "./pages/MultiPage";
 import SoloPage from "./pages/SoloPage";
+import Instructions from "./pages/Instructions";
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: "/solopage",
         element: <SoloPage />,
+      },
+      {
+        path: "/instructions",
+        element: <Instructions />,
       },
     ],
   },
