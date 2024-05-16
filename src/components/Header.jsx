@@ -1,10 +1,11 @@
-import React from 'react'
+import buddha_logo from "../assets/images/buddha 1.svg";
+import "./Header.css";
 
 function Header() {
   return (
-    <div>
-        
-    </div>
+    <section className="display-logo-accueil">
+    <img src={buddha_logo} alt="logo" className="accueil-logo" />
+</section>
   )
 }
 
