@@ -12,7 +12,8 @@ function SoloPage() {
   const [playSound] = useSound(first);
 
   const handleChange = () => {
-    setChangeButton(!changeButton && playSound);
+    setChangeButton(!changeButton);
+    playSound()
   };
 
   return (
@@ -24,7 +25,7 @@ function SoloPage() {
             <FaCirclePlay onClick={handleChange} className="btn-solo-sound" />
           ) : (
             <h2 className='btn-change-solo'>A toi de rire !</h2>
-          )}
+            )}
         </div>
             <button className="btn-laught">Ris encore</button>
       </section>
