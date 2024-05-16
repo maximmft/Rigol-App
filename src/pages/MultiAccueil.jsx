@@ -1,24 +1,31 @@
 import { useState } from "react";
 import NamesInput from "../components/NamesInput";
+import "../pages/multiaccueil.css";
 
-function MultiAccueil () {
-    const [names, setNames] = useState([]);
+function MultiAccueil() {
+  const [names, setNames] = useState([]);
 
-    const addNames = (inputNames) => {
-        setNames([...names, {name: inputNames, completed: false,} ])
-    }
+  const addNames = (inputNames) => {
+    setNames([...names, { name: inputNames, completed: false }]);
+  };
 
-    return (
-        <>
-        <NamesInput addNames={addNames}/>
-        {names.map((playerName) => 
-        <ul key={playerName.name}>
-            <li>{playerName.name}</li>
+  return (
+    <>
+      <div className="input">
+        <NamesInput addNames={addNames} />
+      </div>
+      <div className="multi-home">
+        <ul className="names-list">
+          {names.map((playerName) => (
+            <li key={playerName.name} className="li-name" >{playerName.name}</li>
+          ))}
         </ul>
-        )}
-        <button>Riez</button>
-        </>
-    )
+      </div>
+      <div className="btn-container">
+        <button className="btn">Riez !</button>
+      </div>
+    </>
+  );
 }
 
 export default MultiAccueil;

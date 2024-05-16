@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "../components/namesinput.css"
 
 function NamesInput ({addNames}) {
 
@@ -19,9 +20,9 @@ function NamesInput ({addNames}) {
     
     return (
         <>
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className="input-name">
         <input type="text" onChange={handleInput} value={inputName} placeholder="Add Someone..."/>
-        <button type='submit'>Add</button>
+        <button type='submit' className="submit-btn">Add</button>
         </form>
         </>
     )
