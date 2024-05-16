@@ -25,7 +25,21 @@
   color: white;
   width: 25%;
   box-shadow: 0px 0px 10px 7px #d2911f;
+  cursor: pointer;
 }
+
+.btn-solo-sound:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.btn-change-solo {
+    font-family: var(--primary-font);
+    font-size: 2.5rem;
+    color: white;
+    transform: rotate(-5deg);
+    text-shadow: 2px 2px 5px #606060;
+}
+
 
 .btn-laught {
   width: 80%;
@@ -46,16 +60,13 @@
   0% {
     width: 75%;
     height: 45vh;
-    /* font-size: 2rem; */
   }
   50% {
     width: 80%;
     height: 47vh;
-    /* font-size: 2.5rem; */
   }
   100% {
     width: 75%;
     height: 45vh;
-    /* font-size: 2rem; */
   }
 }
