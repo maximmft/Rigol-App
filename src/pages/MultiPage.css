@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Poetsen+One&display=swap');
+
+
+.section-multi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-multi{
+    width: 50%;
+    margin: 10% 0;
+}
+
+.play{
+    background: linear-gradient(#DE9C28, #EDA72E, #D2911F);
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50%;
+    height: 19rem;
+    justify-content: center;
+    box-shadow: 0px 0px 15px 2px #969696
+    ;
+    animation: growAndShrink 2.5s infinite;
+
+}
+
+.h2-multi{
+    font-family: poetsen one;
+    margin: 5px;
+    transform: rotate(-4deg);
+    color: white;
+    text-shadow: 2px 2px 5px #606060;
+    font-size: 2rem;
+    font-weight: 100;
+    
+}
+
+.button-multi{
+    background: linear-gradient(90deg,#43B0B9, #24777E);
+    color: white;
+    font-family: 'Poetsen One';
+    font-weight: 100;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    width: 12rem;
+    position: absolute;
+    bottom: 15%;
+    box-shadow: 2px 6px 3px -2px #969696;
+}
+
+@keyframes growAndShrink {
+    0% {
+      width: 80%;
+      height: 20rem;
+      font-size: 2rem;
+    }
+    50% {
+      width: 85%;
+      height: 21rem;
+      font-size: 2.5rem;
+
+    }
+    100% {
+      width: 80%;
+      height: 20rem;
+      font-size: 2rem;
+
+    }
+  }
+  
