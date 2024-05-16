@@ -3,18 +3,18 @@ import sound_2 from "../src/assets/sounds/VOXLaff_Rire garcon de 16 mois (ID 098
 import sound_3 from "../src/assets/sounds/VOXLaff_Rire grave (ID 0490)_LS.mp3";
 import sound_4 from "../src/assets/sounds/VOXLaff_Rire horrible 2 (ID 2092)_LS.mp3";
 import sound_5 from "../src/assets/sounds/VOXLaff_Rire horrible 3 (ID 2093)_LS.mp3";
-import sound_6 from "../src/assets/sounds/VOXLaff_Rire horrible 4 (ID 2093)_LS.mp3";
-import sound_7 from "../src/assets/sounds/VOXLaff_Rire horrible 5 (ID 2093)_LS.mp3";
-import sound_8 from "../src/assets/sounds/VOXLaff_Rire horrible 6 (ID 2093)_LS.mp3";
-import sound_9 from "../src/assets/sounds/VOXLaff_Rire horrible 7 (ID 2093)_LS.mp3";
-import sound_10 from "../src/assets/sounds/VOXLaff_Rire horrible 8 (ID 2093)_LS.mp3";
-import sound_11 from "../src/assets/sounds/VOXLaff_Rire horrible 9 (ID 2093)_LS.mp3";
-import sound_12 from "../src/assets/sounds/VOXLaff_Rire horrible 10 (ID 2093)_LS.mp3";
-import sound_13 from "../src/assets/sounds/VOXLaff_Rire horrible 11 (ID 2093)_LS.mp3";
-import sound_14 from "../src/assets/sounds/VOXLaff_Rire horrible 12 (ID 2093)_LS.mp3";
-import sound_15 from "../src/assets/sounds/VOXLaff_Rire horrible 13 (ID 2093)_LS.mp3";
-import sound_16 from "../src/assets/sounds/VOXLaff_Rire horrible 14 (ID 2093)_LS.mp3";
-import sound_17 from "../src/assets/sounds/VOXLaff_Rire horrible 15 (ID 2093)_LS.mp3";
+import sound_6 from "../src/assets/sounds/VOXLaff_Rire horrible 4 (ID 2094)_LS.mp3";
+import sound_7 from "../src/assets/sounds/VOXLaff_Rire horrible 5 (ID 2095)_LS.mp3";
+import sound_8 from "../src/assets/sounds/VOXLaff_Rire horrible 6 (ID 2096)_LS.mp3";
+import sound_9 from "../src/assets/sounds/VOXLaff_Rire horrible 7 (ID 2097)_LS.mp3";
+import sound_10 from "../src/assets/sounds/VOXLaff_Rire horrible 8 (ID 2098)_LS.mp3";
+import sound_11 from "../src/assets/sounds/VOXLaff_Rire horrible 9 (ID 2099)_LS.mp3";
+import sound_12 from "../src/assets/sounds/VOXLaff_Rire horrible 10 (ID 2100)_LS.mp3";
+import sound_13 from "../src/assets/sounds/VOXLaff_Rire horrible 11 (ID 2101)_LS.mp3";
+import sound_14 from "../src/assets/sounds/VOXLaff_Rire horrible 12 (ID 2102)_LS.mp3";
+import sound_15 from "../src/assets/sounds/VOXLaff_Rire horrible 13 (ID 2103)_LS.mp3";
+import sound_16 from "../src/assets/sounds/VOXLaff_Rire horrible 14 (ID 2104)_LS.mp3";
+import sound_17 from "../src/assets/sounds/VOXLaff_Rire horrible 15 (ID 2105)_LS.mp3";
 import sound_18 from "../src/assets/sounds/VOXLaff_Rire strident (ID 0489)_LS.mp3";
 
 

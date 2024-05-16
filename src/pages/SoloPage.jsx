@@ -1,19 +1,30 @@
 import Header from "../components/Header";
 import { useState } from "react";
 import useSound from "use-sound";
-import first from "../assets/sounds/VOXLaff_Rire (ID 0475)_LS.mp3";
-
+import data from "../data";
 import "./SoloPage.css";
 import { FaCirclePlay } from "react-icons/fa6";
+import { useNavigate } from "react-router-dom";
+
 
 function SoloPage() {
   const [changeButton, setChangeButton] = useState(false);
+  const [soundIndex, setSoundIndex] = useState(0);
 
-  const [playSound] = useSound(first);
+  const [playSound] = useSound(data[soundIndex].sound);
+  const navigate = useNavigate();
+
+  console.log(soundIndex);
 
   const handleChange = () => {
-    setChangeButton(!changeButton && playSound);
+    setChangeButton(true);
+    setSoundIndex(soundIndex + 1);
+    playSound();
   };
+
+  if (soundIndex >= data.length -1){
+   navigate("/finish")
+  }
 
   return (
     <div>
@@ -22,10 +33,13 @@ function SoloPage() {
           {changeButton === false ? (
             <FaCirclePlay onClick={handleChange} className="btn-solo-sound" />
           ) : (
-            <h2 className='btn-change-solo'>A toi de rire !</h2>
+            <h2 className="btn-change-solo">A toi de rire !</h2>
           )}
         </div>
-            <button className="btn-laught">Ris encore</button>
+        <button onClick={handleChange} className="btn-laught">
+          Ris encore
+        </button>
+       
       </section>
     </div>
   );
