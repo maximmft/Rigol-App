@@ -16,6 +16,7 @@ function MultiAccueil () {
             <li>{playerName.name}</li>
         </ul>
         )}
+        <button>Riez</button>
         </>
     )
 }
