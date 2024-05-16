@@ -6,16 +6,17 @@
 	text-align: center;
 	display: flex;
 	justify-content: center;
-	font-size: large;
+	font-size: x-large;
 	color: #43b0b9;
 	font-family: "Poetsen One";
-    margin-top: 30px;
+	margin-top: 30px;
 }
 
 .text {
 	text-align: center;
 	font-family: "Dosis";
 	font-weight: 700;
+	font-size: 1.1rem;
 }
 
 .allText {
@@ -26,7 +27,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-    margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 .button-instructions {
 	background: linear-gradient(90deg, #43b0b9, #24777e);
