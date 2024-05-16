@@ -60,7 +60,7 @@ function Instructions() {
         <br></br>
         <br></br>A la
         fin de la séance, prenez le temps de vous remercier pour ce moment
-        ensemble en se regardant droit dans les yeux
+        ensemble en vous regardant droit dans les yeux
       </p>
       <button className="button-instructions" onClick={handleReturn}>Retour</button>
     </section>
