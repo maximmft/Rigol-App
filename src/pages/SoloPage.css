@@ -11,8 +11,6 @@
   align-items: center;
   justify-content: center;
   background: linear-gradient(#de9c28, #eda72e, #d2911f);
-  /* width: 75%; */
-  /* height: 20vh; */
   border-radius: 50%;
   box-shadow: 0px 0px 15px 2px #969696;
   animation: growAndShrink 2.5s infinite;
@@ -86,6 +84,10 @@
 }
 
 @media (min-width: 1150px) {
+  .play-solo{
+    margin: 10px 0;
+  }
+
   .btn-laught {
     width: 25%;
     position: fixed;
@@ -93,7 +95,7 @@
   }
 
   .btn-change-solo {
-    font-size: 55px;
+    font-size: 50px;
   }
 
   .p-multi {
@@ -102,18 +104,18 @@
 
   @keyframes growAndShrink {
     0% {
-      width: 30%;
-      height: 55vh;
+      width: 22%;
+      height: 40vh;
       font-size: 2rem;
     }
     50% {
-      width: 32%;
-      height: 57vh;
+      width: 25%;
+      height: 45vh;
       font-size: 2.5rem;
     }
     100% {
-      width: 30%;
-      height: 55vh;
+      width: 22%;
+      height: 40vh;
       font-size: 2rem;
     }
   }
