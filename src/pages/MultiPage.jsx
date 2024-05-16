@@ -1,4 +1,4 @@
-function MutliPage() {
+function MultiPage() {
   return (
     <>
       <h1>MULTIPAGE</h1>
@@ -6,4 +6,4 @@ function MutliPage() {
   );
 }
 
-export default MutliPage;
+export default MultiPage;
