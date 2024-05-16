@@ -11,8 +11,6 @@ function HomePage() {
 
 	return (
 		<>
-			<Header />
-
 			<h1 className="title">Le yoga du rire c'est quoi ?</h1>
 
 			<div className="allText">
@@ -42,14 +40,14 @@ function HomePage() {
 				<div className="buuton2">
 					<button
 						className="button-MULTI"
-						onClick={() => handleClick("multipage")}
+						onClick={() => handleClick("multiaccueil")}
 					>
 						Rire à plusieurs
 					</button>
 				</div>
 				<div className="button3">
 					<button
-						className="button-instructions"
+						className="button-home-instructions"
 						onClick={() => handleClick("instructions")}
 					>
 						Instructions

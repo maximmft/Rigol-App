@@ -1,0 +1,122 @@
+.display-solo-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.play-solo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(#de9c28, #eda72e, #d2911f);
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 2px #969696;
+  animation: growAndShrink 2.5s infinite;
+  border: 1px solid white;
+}
+
+.btn-solo-sound {
+  height: max-content;
+  border: none;
+  border-radius: 100%;
+  color: white;
+  width: 25%;
+  box-shadow: 0px 0px 10px 7px #d2911f;
+  cursor: pointer;
+}
+
+.p-multi {
+  font-family: poetsen one;
+  margin: 5px;
+  transform: rotate(-4deg);
+  color: white;
+  text-shadow: 2px 2px 5px #606060;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.btn-solo-sound:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.btn-change-solo {
+  font-family: var(--primary-font);
+  font-size: 2.5rem;
+  color: white;
+  transform: rotate(-5deg);
+  text-shadow: 2px 2px 5px #606060;
+  margin: 0;
+}
+
+.btn-laught {
+  width: 80%;
+  height: 10vh;
+  background: linear-gradient(90deg, #43b0b9, #24777e);
+  border: none;
+  border-radius: 50px;
+  box-shadow: 2px 6px 3px -2px #969696;
+  position: absolute;
+  bottom: 0;
+  margin: 20px 0;
+  color: white;
+  font-size: 32px;
+  font-family: var(--primary-font);
+}
+
+@keyframes growAndShrink {
+  0% {
+    width: 80%;
+    height: 45vh;
+    font-size: 2rem;
+  }
+  50% {
+    width: 83%;
+    height: 48vh;
+    font-size: 2.5rem;
+  }
+  100% {
+    width: 80%;
+    height: 45vh;
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 1150px) {
+  .play-solo{
+    margin: 10px 0;
+  }
+
+  .btn-laught {
+    width: 25%;
+    position: fixed;
+    font-size: 42px;
+  }
+
+  .btn-change-solo {
+    font-size: 50px;
+  }
+
+  .p-multi {
+    font-size: 27px;
+  }
+
+  @keyframes growAndShrink {
+    0% {
+      width: 22%;
+      height: 40vh;
+      font-size: 2rem;
+    }
+    50% {
+      width: 25%;
+      height: 45vh;
+      font-size: 2.5rem;
+    }
+    100% {
+      width: 22%;
+      height: 40vh;
+      font-size: 2rem;
+    }
+  }
+}
