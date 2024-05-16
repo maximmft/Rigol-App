@@ -6,7 +6,6 @@ import "./SoloPage.css";
 import { FaCirclePlay } from "react-icons/fa6";
 import { useNavigate } from "react-router-dom";
 
-
 function SoloPage() {
   const [changeButton, setChangeButton] = useState(false);
   const [soundIndex, setSoundIndex] = useState(0);
@@ -22,8 +21,8 @@ function SoloPage() {
     playSound();
   };
 
-  if (soundIndex >= data.length -1){
-   navigate("/finish")
+  if (soundIndex >= data.length - 1) {
+    navigate("/finish");
   }
 
   return (
@@ -37,10 +36,11 @@ function SoloPage() {
             <h2 className="btn-change-solo">A toi de rire !</h2>
           )}
         </div>
-        <button onClick={handleChange} className="btn-laught">
-          Ris encore
-        </button>
-       
+        {changeButton === true && (
+          <button onClick={handleChange} className="btn-laught">
+            Ris encore
+          </button>
+        )}
       </section>
     </div>
   );
