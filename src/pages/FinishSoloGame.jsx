@@ -12,7 +12,6 @@ function FinishSoloGame() {
           <h2 className="btn-change-solo">Fini de rire !</h2>
           <p className="p-multi">C'est plus drôle</p>
         </div>
-
         <button onClick={() => navigate("/")} className="btn-laught">
           Retour
         </button>

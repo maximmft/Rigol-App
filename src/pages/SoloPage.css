@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 20px 0;
 }
 
 .play-solo {
@@ -10,8 +11,8 @@
   align-items: center;
   justify-content: center;
   background: linear-gradient(#de9c28, #eda72e, #d2911f);
-  width: 75%;
-  height: 20vh;
+  /* width: 75%; */
+  /* height: 20vh; */
   border-radius: 50%;
   box-shadow: 0px 0px 15px 2px #969696;
   animation: growAndShrink 2.5s infinite;
@@ -19,17 +20,16 @@
 }
 
 .btn-solo-sound {
-  height: 25%;
+  height: max-content;
   border: none;
   border-radius: 100%;
   color: white;
   width: 25%;
   box-shadow: 0px 0px 10px 7px #d2911f;
   cursor: pointer;
-
 }
 
-.p-multi{
+.p-multi {
   font-family: poetsen one;
   margin: 5px;
   transform: rotate(-4deg);
@@ -44,14 +44,13 @@
   cursor: pointer;
 }
 .btn-change-solo {
-    font-family: var(--primary-font);
-    font-size: 2.5rem;
-    color: white;
-    transform: rotate(-5deg);
-    text-shadow: 2px 2px 5px #606060;
-    margin: 0;
+  font-family: var(--primary-font);
+  font-size: 2.5rem;
+  color: white;
+  transform: rotate(-5deg);
+  text-shadow: 2px 2px 5px #606060;
+  margin: 0;
 }
-
 
 .btn-laught {
   width: 80%;
@@ -70,15 +69,52 @@
 
 @keyframes growAndShrink {
   0% {
-    width: 75%;
+    width: 80%;
     height: 45vh;
+    font-size: 2rem;
   }
   50% {
-    width: 80%;
-    height: 47vh;
+    width: 83%;
+    height: 48vh;
+    font-size: 2.5rem;
   }
   100% {
-    width: 75%;
+    width: 80%;
     height: 45vh;
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 1150px) {
+  .btn-laught {
+    width: 25%;
+    position: fixed;
+    font-size: 42px;
+  }
+
+  .btn-change-solo {
+    font-size: 55px;
+  }
+
+  .p-multi {
+    font-size: 27px;
+  }
+
+  @keyframes growAndShrink {
+    0% {
+      width: 30%;
+      height: 55vh;
+      font-size: 2rem;
+    }
+    50% {
+      width: 32%;
+      height: 57vh;
+      font-size: 2.5rem;
+    }
+    100% {
+      width: 30%;
+      height: 55vh;
+      font-size: 2rem;
+    }
   }
 }
