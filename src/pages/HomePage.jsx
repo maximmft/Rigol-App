@@ -1,10 +1,10 @@
-import "./HomePage.css";
+import Header from "../components/Header";
 
 function HomePage() {
   return (
     
     <>
-  <img src="../" alt="" />
+      <Header />
       <h1>HOME PAGE</h1>
       <h2></h2>
     </>
