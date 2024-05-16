@@ -43,6 +43,7 @@
 	box-shadow: 2px 6px 3px -2px #969696;
 	bottom: 0;
 	margin-bottom: 1rem;
+	cursor: pointer;
 }
 .button-SOLO {
 	background: linear-gradient(90deg, #f5e966, #f6bb54);
@@ -58,6 +59,7 @@
 	box-shadow: 2px 6px 3px -2px #969696;
 	bottom: 0;
 	margin-bottom: 1rem;
+	cursor: pointer;
 }
 .button-MULTI {
 	background: linear-gradient(90deg, #f59080, #f37ba9);
@@ -73,4 +75,18 @@
 	box-shadow: 2px 6px 3px -2px #969696;
 	bottom: 0;
 	margin-bottom: 1rem;
+	cursor: pointer;
+}
+
+@media (min-width: 1000px) {
+	.accueil-logo {
+		width: 25%;
+	}
+	.display-logo-accueil {
+		margin: 0px;
+	}
+
+	.allText {
+		padding: 10px 50px 50px;
+	}
 }
