@@ -26,6 +26,7 @@ function SoloPage() {
             <h2 className='btn-change-solo'>A toi de rire !</h2>
           )}
         </div>
+            <button className="btn-laught">Ris encore</button>
       </section>
     </div>
   );
