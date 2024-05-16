@@ -1,12 +1,24 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { useName } from "../contexts/name";
 import NamesInput from "../components/NamesInput";
 
+
 function MultiAccueil () {
-    const [names, setNames] = useState([]);
+    const {names, setNames} = useName();
+    console.log(names);
+    console.log(setNames);
 
     const addNames = (inputNames) => {
         setNames([...names, {name: inputNames, completed: false,} ])
     }
+
+    const navigate = useNavigate();
+
+    const handleNames = () => {
+        navigate("/multipage")
+    }
+
 
     return (
         <>
@@ -16,7 +28,7 @@ function MultiAccueil () {
             <li>{playerName.name}</li>
         </ul>
         )}
-        <button>Riez</button>
+        <button onClick={handleNames} >Riez</button>
         </>
     )
 }
