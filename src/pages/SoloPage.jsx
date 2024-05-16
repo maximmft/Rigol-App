@@ -1,10 +1,17 @@
-import Header from '../components/Header'
+import Header from "../components/Header";
+import useSound from 'use-sound'
+import first from "../assets/sounds/VOXLaff_Rire (ID 0475)_LS.mp3";
+
+import "./SoloPage.css";
 
 function SoloPage() {
+  const [playSound] = useSound(first)
   return (
     <div>
-      <Header/>
-      <button style={{padding:'90px', borderRadius:'50%', backgroundColor:'var(--third-color'}}></button>
+      <Header />
+      <button onClick={playSound}> PLAY
+        {/* <audio src={first}></audio> */}
+      </button>
     </div>
   );
 }

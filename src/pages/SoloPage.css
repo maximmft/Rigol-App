@@ -1,0 +1,13 @@
+.button-solo{
+    background: linear-gradient(#DE9C28, #EDA72E, #D2911F);
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50%;
+    height: 19rem;
+    justify-content: center;
+    box-shadow: 0px 0px 15px 2px #969696
+    ;
+    animation: growAndShrink 2.5s infinite;
+}
