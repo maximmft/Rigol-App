@@ -1,8 +1,11 @@
+import logo from '../assets/images/buddha 1.svg'
+
+
 function SoloPage() {
   return (
-    <>
-      <h1>SOLO PAGE</h1>
-    </>
+    <div>
+      <button style={{padding:'90px', borderRadius:'50%', backgroundColor:'var(--third-color'}}></button>
+    </div>
   );
 }
 
