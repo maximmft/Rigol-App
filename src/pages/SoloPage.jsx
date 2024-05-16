@@ -1,4 +1,3 @@
-import Header from "../components/Header";
 import { useState } from "react";
 import useSound from "use-sound";
 import data from "../data";
@@ -9,11 +8,8 @@ import { useNavigate } from "react-router-dom";
 function SoloPage() {
   const [changeButton, setChangeButton] = useState(false);
   const [soundIndex, setSoundIndex] = useState(0);
-
   const [playSound] = useSound(data[soundIndex].sound);
   const navigate = useNavigate();
-
-  console.log(soundIndex);
 
   const handleChange = () => {
     setChangeButton(true);
