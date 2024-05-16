@@ -56,19 +56,19 @@
 
 @keyframes growAndShrink {
     0% {
-      width: 80%;
-      height: 20rem;
+      width: 75%;
+      height: 45vh;
       font-size: 2rem;
     }
     50% {
-      width: 85%;
-      height: 21rem;
+      width: 80%;
+      height:47vh;
       font-size: 2.5rem;
 
     }
     100% {
-      width: 80%;
-      height: 20rem;
+      width: 75%;
+      height: 45vh;
       font-size: 2rem;
 
     }
