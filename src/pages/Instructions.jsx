@@ -12,7 +12,6 @@ function Instructions() {
 
   return (
     <section className="section-instruction">
-      <img src={logo} className="logo-instruction" />
       <h2 className="h2-instructions">Comment pratiquer?</h2>
       <h3 className="h3-instructions" id="solo">Solo</h3>
       <p className="paragraph-instructions">

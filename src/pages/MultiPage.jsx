@@ -12,10 +12,6 @@ function MultiPage() {
   const { names, setNames } = useName();
   const [namesIndex, setNamesIndex] = useState(0);
 
-  const handleReturn = () => {
-    navigate("/");
-};
-
   const handleCount =() => {
     setChangeInterface(!changeInterface)
     if(changeInterface === true){
@@ -28,7 +24,6 @@ function MultiPage() {
   
   return (
     <section className="section-multi">
-      <img src={logo} className="logo-multi" onClick={handleReturn}/>
       {changeInterface === true ? <div className="play">
         <h2 className="h2-multi" >{names[namesIndex].name}</h2>
         <h2 className="h2-multi">Rigole un coup !</h2>
