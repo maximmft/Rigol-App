@@ -23,9 +23,9 @@
     border-radius: 50%;
     height: 19rem;
     justify-content: center;
-    box-shadow: 0px 0px 15px 2px #969696
-    ;
+    box-shadow: 0px 0px 15px 2px #969696;
     animation: growAndShrink 2.5s infinite;
+    border: 1px solid white;
 
 }
 
@@ -58,19 +58,19 @@
 
 @keyframes growAndShrink {
     0% {
-      width: 80%;
-      height: 20rem;
+      width: 75%;
+      height: 45vh;
       font-size: 2rem;
     }
     50% {
-      width: 85%;
-      height: 21rem;
+      width: 80%;
+      height:47vh;
       font-size: 2.5rem;
 
     }
     100% {
-      width: 80%;
-      height: 20rem;
+      width: 75%;
+      height: 45vh;
       font-size: 2rem;
 
     }
