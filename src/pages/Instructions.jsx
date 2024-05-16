@@ -12,7 +12,6 @@ function Instructions() {
 
   return (
     <section className="section-instruction">
-      <img src={logo} className="logo-instruction" />
       <h2 className="h2-instructions">Comment pratiquer?</h2>
       <h3 className="h3-instructions" id="solo">Solo</h3>
       <p className="paragraph-instructions">
@@ -60,7 +59,7 @@ function Instructions() {
         <br></br>
         <br></br>A la
         fin de la séance, prenez le temps de vous remercier pour ce moment
-        ensemble en se regardant droit dans les yeux
+        ensemble en vous regardant droit dans les yeux
       </p>
       <button className="button-instructions" onClick={handleReturn}>Retour</button>
     </section>

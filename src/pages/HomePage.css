@@ -1,0 +1,93 @@
+.logo-section {
+	background-image: url("../assets/images/buddha\ 1.svg");
+}
+
+.title {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	font-size: x-large;
+	color: #43b0b9;
+	font-family: "Poetsen One";
+	margin-top: 30px;
+	font-weight:200;
+}
+
+.text {
+	text-align: center;
+	font-family: "Dosis";
+	font-weight: 700;
+	font-size: 1.1rem;
+}
+
+.allText {
+	text-align: center;
+	padding: 10px 30px 30px;
+}
+.button {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.button-home-instructions {
+	background: linear-gradient(90deg, #43b0b9, #24777e);
+	color: white;
+	font-family: "Poetsen One";
+	font-weight: 100;
+	font-size: 1.5rem;
+	padding: 1rem 2rem;
+	border: none;
+	border-radius: 3rem;
+	width: 15rem;
+	height: 5rem;
+	box-shadow: 2px 6px 3px -2px #969696;
+	bottom: 0;
+	margin-bottom: 1rem;
+	cursor: pointer;
+}
+.button-SOLO {
+	background: linear-gradient(90deg, #EFAB34, #cd8f24);
+	color: white;
+	font-family: "Poetsen One";
+	font-weight: 100;
+	font-size: 1.5rem;
+	padding: 1rem 2rem;
+	border: none;
+	border-radius: 3rem;
+	width: 15rem;
+	height: 5rem;
+	box-shadow: 2px 6px 3px -2px #969696;
+	bottom: 0;
+	margin-bottom: 1rem;
+	cursor: pointer;
+}
+.button-MULTI {
+	background: linear-gradient(90deg, #f59080, #f37ba9);
+	color: white;
+	font-family: "Poetsen One";
+	font-weight: 100;
+	font-size: 1.5rem;
+	padding: 1rem 2rem;
+	border: none;
+	border-radius: 3rem;
+	width: 15rem;
+	height: 5rem;
+	box-shadow: 2px 6px 3px -2px #969696;
+	bottom: 0;
+	margin-bottom: 1rem;
+	cursor: pointer;
+}
+
+@media (min-width: 1000px) {
+	.accueil-logo {
+		width: 25%;
+	}
+	.display-logo-accueil {
+		margin: 0px;
+	}
+
+	.allText {
+		padding: 10px 50px 50px;
+	}
+}

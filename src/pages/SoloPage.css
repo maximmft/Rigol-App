@@ -1,3 +1,21 @@
+.menu-instruction{
+  position: absolute;
+  right: 3%;
+  top: 22px;
+  border:none;
+  background-color: transparent;
+}
+.menu-instruction:hover {
+  transform: scale(1.2);
+}
+.text-instruction{
+  padding-top: 15%;
+  position: absolute;
+  top: 5%;
+  margin-left:4%;
+  background-color: rgb(255,250,250, .6);
+  height: 100vh;
+}
 .display-solo-page {
   display: flex;
   flex-direction: column;
@@ -26,6 +44,17 @@
   width: 25%;
   box-shadow: 0px 0px 10px 7px #d2911f;
   cursor: pointer;
+
+}
+
+.p-multi{
+  font-family: poetsen one;
+  margin: 5px;
+  transform: rotate(-4deg);
+  color: white;
+  text-shadow: 2px 2px 5px #606060;
+  font-size: 16px;
+  font-weight: 100;
 }
 
 .btn-solo-sound:hover {
@@ -38,6 +67,7 @@
     color: white;
     transform: rotate(-5deg);
     text-shadow: 2px 2px 5px #606060;
+    margin: 0;
 }
 
 
