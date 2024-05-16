@@ -2,8 +2,9 @@ import { createBrowserRouter } from "react-router-dom";
 import App from "./App";
 import HomePage from "./pages/HomePage";
 import MultiAccueil from "./pages/MultiAccueil";
-import MutliPage from "./pages/MultiPage";
+import MultiPage from "./pages/MultiPage";
 import SoloPage from "./pages/SoloPage";
+import Instructions from "./pages/Instructions";
 
 const router = createBrowserRouter([
   {
@@ -23,11 +24,15 @@ const router = createBrowserRouter([
 
       {
         path: "/multipage",
-        element: <MutliPage />,
+        element: <MultiPage />,
       },
       {
         path: "/solopage",
         element: <SoloPage />,
+      },
+      {
+        path: "/instructions",
+        element: <Instructions />,
       },
     ],
   },

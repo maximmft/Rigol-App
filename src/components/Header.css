@@ -1,0 +1,9 @@
+.display-logo-accueil {
+  display: flex;
+  justify-content: center;
+}
+
+.accueil-logo {
+  width: 50%;
+  margin: 20px 0;
+}
