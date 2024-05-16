@@ -9,7 +9,7 @@ function MultiPage() {
   const handleChange = () =>
     setChangeInterface(!changeInterface)
   console.log(changeInterface);
-
+  
   return (
     <section className="section-multi">
       <img src={logo} className="logo-multi"/>
