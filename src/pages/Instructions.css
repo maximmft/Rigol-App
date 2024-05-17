@@ -46,6 +46,7 @@
     width: 10rem;
     box-shadow: 2px 6px 3px -2px #969696;
     margin-top: 10%;
+    cursor: pointer;
 }
 
 .sample-sound{

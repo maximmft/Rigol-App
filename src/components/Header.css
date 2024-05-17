@@ -2,8 +2,11 @@
   margin: 20px 0;
   display: flex;
   justify-content: center;
+  cursor: pointer;
 }
 
 .accueil-logo {
   width: 50%;
 }
+
+
