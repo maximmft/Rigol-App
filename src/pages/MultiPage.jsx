@@ -1,15 +1,13 @@
 import { useState } from "react"
-import { useNavigate } from "react-router-dom";
 import { useName } from "../contexts/name";
-import logo from "../assets/images/buddha 1.svg"
 import './MultiPage.css'
 
 function MultiPage() {
 
   const [changeInterface, setChangeInterface] = useState(true);
 
-  const navigate = useNavigate();
-  const { names, setNames } = useName();
+  
+  const { names } = useName();
   const [namesIndex, setNamesIndex] = useState(0);
 
   const handleCount =() => {

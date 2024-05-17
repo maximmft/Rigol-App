@@ -20,8 +20,10 @@
 }
 
 .paragraph-instructions{
+    width: 90%;
     font-family: dosis;
     font-weight: 600;
+    text-align: center;
 }
 
 #solo{
@@ -43,5 +45,5 @@
     border-radius: 2rem;
     width: 10rem;
     box-shadow: 2px 6px 3px -2px #969696;
-    margin-top: 2vh;
+    margin-top: 10%;
 }
