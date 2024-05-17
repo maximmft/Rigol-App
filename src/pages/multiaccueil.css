@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
 
+.display-multi-accueil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .input {
 display: flex;
 justify-content: center;
-margin-top: 70px;
+margin-top: 20px;
+margin-left: 10px;
 }
 
 .multi-home {
@@ -29,8 +36,8 @@ margin-top: 70px;
 .btn-container{
     position: absolute;
     bottom: 0;
-    left: 100px;
-    margin-bottom: 80px;
+    margin-bottom: 10px;
+    
 }
 
 .btn {
