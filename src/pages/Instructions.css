@@ -47,3 +47,7 @@
     box-shadow: 2px 6px 3px -2px #969696;
     margin-top: 10%;
 }
+
+.sample-sound{
+    font-family: var(--primary-font);
+}
