@@ -51,4 +51,5 @@ margin-left: 10px;
     border-radius: 2rem;
     width: 12rem;
     box-shadow: 2px 6px 3px -2px #969696;  
+    cursor: pointer;
 }
