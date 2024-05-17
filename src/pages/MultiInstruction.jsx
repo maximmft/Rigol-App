@@ -15,7 +15,7 @@ function MultiInstruction({ setMenuOpen }) {
       >
         X
       </button>
-      <p className="paragraph-instructions">
+      <p className="paragraph-instructions-mobile">
         L'application choisit aléatoirement une personne parmi les participants
         pour commencer.
         <br></br>

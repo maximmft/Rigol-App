@@ -20,12 +20,12 @@
     font-weight: 100;
 }
 
-.paragraph-instructions{
+.paragraph-instructions-mobile{
     /* width: 90%; */
     font-family: dosis;
     font-weight: 600;
     text-align: center;
-    width: 60%;
+    width: 90%;
     overflow: scroll;
 }
 

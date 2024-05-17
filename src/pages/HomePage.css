@@ -90,4 +90,10 @@
 	.allText {
 		padding: 10px 50px 50px;
 	}
+	.button{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		gap: 20px;
+	}
 }

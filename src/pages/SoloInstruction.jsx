@@ -15,7 +15,7 @@ function SoloInstruction({ setMenuOpen }) {
       >
         X
       </button>
-      <p className="paragraph-instructions">
+      <p className="paragraph-instructions-mobile">
         Trouvez un espace calme où vous pouvez vous détendre sans être dérangé.
         <br></br>
         <br></br>
