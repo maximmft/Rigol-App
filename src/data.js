@@ -25,11 +25,11 @@ const data = [
     },
     {
         id: 2,
-        sound: sound_2,
+        sound: sound_3,
     },
     {
         id: 3,
-        sound: sound_3,
+        sound: sound_2,
     },
     {
         id: 4,
