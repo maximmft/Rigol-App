@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useName } from "../contexts/name";
 import "./MultiPage.css";
 
+
 function MultiPage() {
   const [changeInterface, setChangeInterface] = useState(true);
 
