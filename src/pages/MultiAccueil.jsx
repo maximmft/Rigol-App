@@ -1,25 +1,13 @@
 import { useNavigate } from "react-router-dom";
-// import { useState } from "react";
 import { useName } from "../contexts/name";
 import NamesInput from "../components/NamesInput";
 import "../pages/multiaccueil.css";
 
 function MultiAccueil() {
   const { names, setNames } = useName([]);
-//   const [disabledBtn, setDisabledBtn] = useState(false);
-
-//   console.log(disabledBtn)
-
-//   const handleButton = () => {
-//     if (addNames === null) {
-//       setDisabledBtn(true);
-//     } else {
-//         setDisabledBtn(false)
-//     }
-//   };
 
   const addNames = (inputNames) => {
-    setNames([...names, { name: inputNames, completed: false }]);
+    setNames([...names, { name: inputNames }]);
   };
 
   const navigate = useNavigate();
@@ -46,6 +34,7 @@ function MultiAccueil() {
         <button
           className="btn"
           onClick={handleNames}
+          disabled={names.length === 0}
         >
           Riez !
         </button>
