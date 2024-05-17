@@ -1,0 +1,21 @@
+.section-instruction-solo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    background-color: rgb(255, 250, 250, 0.6);
+    backdrop-filter: blur(5px);
+    z-index: 10000;
+}
+
+.btn-close{
+    background-color: var(--third-color);
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}

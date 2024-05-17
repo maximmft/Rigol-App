@@ -12,6 +12,7 @@
     font-family: poetsen one;
     font-weight: 100;
     color: #43B0B9;
+    cursor: pointer;
 }
 
 .h3-instructions {
@@ -20,10 +21,12 @@
 }
 
 .paragraph-instructions{
-    width: 90%;
+    /* width: 90%; */
     font-family: dosis;
     font-weight: 600;
     text-align: center;
+    width: 60%;
+    overflow: scroll;
 }
 
 #solo{

@@ -2,9 +2,12 @@ import { useNavigate } from "react-router-dom";
 import { useName } from "../contexts/name";
 import NamesInput from "../components/NamesInput";
 import "../pages/multiaccueil.css";
+import MultiInstruction from "./MultiInstruction";
+import { useState } from "react";
 
 function MultiAccueil() {
   const { names, setNames } = useName([]);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   const addNames = (inputNames) => {
     setNames([...names, { name: inputNames }]);
@@ -16,8 +19,23 @@ function MultiAccueil() {
     navigate("/multipage");
   };
 
+  const handleClick = () => {
+    setMenuOpen(!menuOpen);
+    handleInstruction();
+  };
+
+  const handleInstruction = () => {
+    setMenuOpen(true);
+  };
+
   return (
     <div className="display-multi-accueil">
+      <button onClick={handleClick} className="menu-instruction">
+        Instructions
+      </button>
+      <div className="text-instruction">
+        {menuOpen && <MultiInstruction setMenuOpen={setMenuOpen} />}
+      </div>
       <div className="input">
         <NamesInput addNames={addNames} />
       </div>
