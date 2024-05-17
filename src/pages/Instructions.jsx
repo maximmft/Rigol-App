@@ -15,7 +15,7 @@ function Instructions() {
       <h3 className="h3-instructions" id="solo">
         Solo
       </h3>
-      <p className="paragraph-instructions">
+      <p className="paragraph-instructions-mobile">
         Trouvez un espace calme où vous pouvez vous détendre sans être dérangé.
         <br></br>
         <br></br>
@@ -42,7 +42,7 @@ function Instructions() {
       <h3 className="h3-instructions" id="many">
         A plusieurs
       </h3>
-      <p className="paragraph-instructions">
+      <p className="paragraph-instructions-mobile">
         L'application choisit aléatoirement une personne parmi les participants
         pour commencer.
         <br></br>
