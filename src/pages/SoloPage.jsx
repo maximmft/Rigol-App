@@ -64,11 +64,11 @@ function SoloPage() {
             <h2 className="btn-change-solo">A toi de rire !</h2>
           )}
         </div>
-        {changeButton === true && (
+        {changeButton === true ?(
           <button onClick={handleChange} className="btn-laught">
             Ris encore
           </button>
-        )}
+        ): <h2 className="hide-text">Prêt à rire ?</h2>}
       </section>
     </div>
     </>
