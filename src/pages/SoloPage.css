@@ -5,6 +5,8 @@
   border: none;
   background-color: transparent;
   color:var(--second-color);
+  font-family: var(--primary-font);
+  font-weight: 100;
   transition: 0.3s ease-in-out;
 
 }
@@ -17,9 +19,9 @@
   padding-top: 15%;
   position: absolute;
   top: 5%;
-  margin-left: 4%;
   background-color: rgb(255, 250, 250, 0.6);
   height: 100vh;
+  display:flex;
 }
 .display-solo-page {
   display: flex;
@@ -51,7 +53,7 @@
 }
 
 .p-multi {
-  font-family: poetsen one;
+  font-family: 'poetsen One';
   margin: 5px;
   transform: rotate(-4deg);
   color: white;
@@ -88,6 +90,14 @@
   font-size: 32px;
   font-family: var(--primary-font);
   cursor: pointer;
+}
+.hide-text{
+  font-family: var(--primary-font);
+  color:var(--second-color);
+  margin-top:15%;
+  transform: rotate(-4deg);
+  font-size: 2.5rem;
+  font-weight: 100;
 }
 
 @keyframes growAndShrink {
@@ -128,6 +138,9 @@
   }
   .menu-instruction {
     font-size: 1.3rem;
+  }
+  .hide-text{
+    margin-top: 3%;
   }
 
   @keyframes growAndShrink {
