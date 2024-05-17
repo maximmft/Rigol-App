@@ -29,7 +29,7 @@ function MultiAccueil() {
   };
 
   return (
-    <>
+    <div className="display-multi-accueil">
       <div className="input">
         <NamesInput addNames={addNames} />
       </div>
@@ -50,7 +50,7 @@ function MultiAccueil() {
           Riez !
         </button>
       </div>
-    </>
+    </div>
   );
 }
 
