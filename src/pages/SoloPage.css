@@ -1,3 +1,26 @@
+.menu-instruction {
+  position: absolute;
+  right: 3%;
+  top: 22px;
+  border: none;
+  background-color: transparent;
+  color:var(--second-color);
+  transition: 0.3s ease-in-out;
+
+}
+.menu-instruction:hover {
+  transform: scale(1.2);
+  transition: 0.3s ease-in-out;
+}
+.text-instruction {
+  z-index: 1;
+  padding-top: 15%;
+  position: absolute;
+  top: 5%;
+  margin-left: 4%;
+  background-color: rgb(255, 250, 250, 0.6);
+  height: 100vh;
+}
 .display-solo-page {
   display: flex;
   flex-direction: column;
@@ -86,7 +109,7 @@
 }
 
 @media (min-width: 1150px) {
-  .play-solo{
+  .play-solo {
     margin: 10px 0;
   }
 
@@ -102,6 +125,9 @@
 
   .p-multi {
     font-size: 27px;
+  }
+  .menu-instruction {
+    font-size: 1.3rem;
   }
 
   @keyframes growAndShrink {
