@@ -1,10 +1,14 @@
 import { useNavigate } from "react-router-dom";
 import logo from "../assets/images/buddha 1.svg";
+import useSound from "use-sound";
 import './Instructions.css'
+import a_vos_rire from "../assets/sounds/A-vos-rire.mp3";
 
 function Instructions() {
 
     const navigate = useNavigate();
+
+    const [playSound] = useSound(a_vos_rire);
 
     const handleReturn = () => {
         navigate("/");
@@ -61,6 +65,8 @@ function Instructions() {
         fin de la séance, prenez le temps de vous remercier pour ce moment
         ensemble en vous regardant droit dans les yeux
       </p>
+      <p className="sample-sound">Exemple :</p>
+      <audio controls src={playSound}></audio>
       <button className="button-instructions" onClick={handleReturn}>Retour</button>
     </section>
   );
