@@ -31,7 +31,7 @@ function MultiAccueil() {
         </ul>
       </div>
       <div className="btn-container">
-        <button className="btn" onClick={handleNames} >Riez</button>
+        <button className="btn" onClick={handleNames} >Riez !</button>
       </div>
     </>
   );

@@ -1,4 +1,3 @@
-import Header from "../components/Header";
 import { useState } from "react";
 import useSound from "use-sound";
 import data from "../data";
@@ -38,22 +37,21 @@ function SoloPage() {
         Asseyez-vous ou tenez-vous debout dans une posture confortable, le dos
         droit et les épaules détendues.
         <br></br>
-        <br></br>Appuyez sur le bouton de lecture pour démarrer l'audio du rire.
+        <br></br><b style={{fontSize:'1.1rem'}}>Appuyez sur le bouton de lecture pour démarrer l'audio du rire. </b> 
         Laissez-vous aller et écoutez le son du rire avec attention.
         <br></br>
-        <br></br>Une fois que l'audio du rire commence à jouer, imitez-le du
-        mieux que vous le pouvez. Laissez votre rire être authentique et
+        <br></br>Une fois l'audio du rire terminé, <b style={{fontSize:'1.1rem'}}>imitez-le du
+        mieux que vous le pouvez.</b> Laissez votre rire être authentique et
         spontané, sans vous inquiéter de son apparence ou de sa sonorité.
         <br></br>
         <br></br>
-        Laissez-vous emporter par le rire contagieux. Sentez la joie et la
+        <b style={{fontSize:'1.1rem'}}>Laissez-vous emporter par le rire contagieux.</b> Sentez la joie et la
         légèreté envahir votre être. N'hésitez pas à rire de vous-même et à vous
         laisser aller à l'amusement.
         <br></br>
         <br></br>
-        Après avoir ri pendant quelques instants, l'audio du rire prendra fin.
-        Prenez une courte pause pour respirer, puis préparez-vous à répéter le
-        processus. Continuez à suivre les instructions et à rire avec abandon.
+        Après avoir ri pendant quelques instants, prenez une courte pause pour respirer, puis préparez-vous à répéter le
+        processus. <b style={{fontSize:'1.1rem'}}>Continuez à suivre les instructions et à rire avec abandon.</b>
       </p>
       )}
       </div>
